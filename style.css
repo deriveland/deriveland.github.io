@@ -1,0 +1,7 @@
+.idle {
+    display: none;
+}
+/* display class idle when [data-state] equals idle */
+[data-state~="idle"] .idle {
+    display: block;
+}
